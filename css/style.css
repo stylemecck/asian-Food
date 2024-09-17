@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar{
+    width: 1280px;
+    height: 40px;
+    background: #ffffff;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo{
+    font-size: 32px;
+    font-family: "Sniglet";
+    font-weight: 700;
+    color: #E5AF10;
+    text-shadow: black;
+}
+.midMenu ul{
+ display: flex;
+ gap: 24px;
+ list-style: none;
+}
+
+.midMenu li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Inter";
+    color: black;
+    font-weight: 500;
+   
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.login button{
+    padding: 10px 13px;
+    border-radius: 9px;
+    border: 2px solid #E5AF10
+
+}
+.login a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 2px soild #E5AF10;
+    border-radius: 9px;
+}
+
+.conTable{
+    max-width: 1280px;
+    margin: auto;
+    padding: 10px
+    
+}
+.conTd{
+    padding: 71px;
+}
+.conTd h1{
+    font-size: 48px;
+    font-family: Inter;
+}
+.conTd span{
+    color: #E5AF10;
+}
+.conTd p{
+    font-size: 16px;
+    font-family: Inter;
+}
+.b1{
+    width: 166px;
+    height: 66px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.b1-1{
+    width: 140px;
+    height: 66px;
+    font-size: 18px;
+    /* padding: 20px; */
+}
+.b1{
+    background: #E5AF10;
+    border: none;
+    border-radius: 8px;
+}
+.b1-1{
+    border:2px solid #E5AF10;
+    /* border: none; */
+    border-radius: 8px;
+}
+.b1-1 a{
+    text-align: center;
+}
+
+.conTd button a{
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Inter;
+    color: black;
+}
+.conTd img{
+    height: 18px;
+}
+
+.howCanOrder{
+    font-size: 40px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 600;
+    
+}
+.orCon{
+    width: 1280px;
+    height: 504px;
+    /* border: 2px solid rgb(249, 2, 2);
+    border-radius: 5px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.ordetail{
+    border: 2px solid rgb(139, 139, 139);
+    border-radius: 14px;
+    /* padding: 20px; */
+    width: 296px;
+}
+.ordetail img{
+    display: flex;
+    width: 260px;
+    height: 260px;
+    padding: 18px;
+}
+
+.ordetail p{
+    text-align: center;
+    font-size: 18px;
+    /* font-weight: 700; */
+    font-family: 'Inter';
+    padding: 0px 20px;
+}
+.ordetail h2{
+    text-align: center;
+    font-size: 18px;
+    /* font-weight: 700; */
+    font-family: 'Inter';
+    
+}
+
+.popFood{
+    font-size: 25px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    padding: 30px 0px;
+    
+}
+
+.popFood hr{
+    
+    /* background: #E5AF10; */
+    width: 152px;
+    border: 3px solid #E5AF10;
+}
+
+.conPop{
+    margin: auto;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popContainer{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    font-size: 16px;
+    font-family: Inter;
+    /* border: 2px solid rgb(180, 179, 179); */
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+.border{
+    border: 2px solid rgb(152, 149, 149);
+    max-width: 1280px;
+    margin: auto;
+    border-radius: 14px;
+}
+.popContainer p{
+    padding: 11px 24px;
+    border-radius: 8px;
+}
+
+.popContainer p:hover{
+    
+    background: #E5AF10;
+}
+.popContainer-1{
+    border: 2px solid black;
+    padding: 10px 16px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.popContainer-1 hr{
+border: 1px solid black;
+}
+.c1{
+ width: 24px;
+}
+.c2{
+    width: 12px;
+}
+.c3
+{
+    width: 5px;
+}
+
+.popContainer-1:hover{
+    background: #E5AF10;
+}
